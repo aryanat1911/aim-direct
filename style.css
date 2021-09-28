@@ -51,6 +51,7 @@ hr {
 
 #nav-section .list-items .nav-item {
   padding-right: 10px;
+  font-family: "PT Sans", sans-serif;
 }
 
 #nav-section .navbar-toggler {
@@ -86,7 +87,7 @@ hr {
 
 #landing-background {
   background-image: url("./images/landing_img.png");
-  height: 680px;
+  height: 700px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -99,17 +100,11 @@ hr {
 }
 
 #landing-background .landing-text {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
   height: 100%;
   color: #fff;
+  display: flex;
+  align-items: center;
+  margin-left: 200px;
 }
 
 #landing-background .landing-text h1::before {
@@ -130,11 +125,12 @@ hr {
 
 #landing-background .landing-text h1 {
   font-family: "PT Sans", sans-serif;
-  font-size: 70px;
-  width: 690px;
+  font-size: 58px;
+  width: 670px;
   text-align: left;
   letter-spacing: 2px;
   font-weight: 700;
+  line-height: 80px;
 }
 
 /* PARTNER SECTION */
@@ -150,11 +146,14 @@ hr {
 }
 
 #partner-section .partner-wrapper p {
+  font-family: "Open Sans", sans-serif;
+  color: #122a3f;
   font-size: 22px;
   margin-bottom: 40px;
   width: 80%;
   font-weight: 100;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
+  line-height: 30px;
 }
 
 #partner-section .partner-wrapper h1::before {
@@ -174,10 +173,10 @@ hr {
 }
 
 #partner-section .partner-wrapper h1 {
-  font-family: "PT Sans", sans-serif;
   color: #344f73;
   font-weight: 700;
   font-size: 35px;
+  font-family: "PT Sans", sans-serif;
 }
 
 #partner-section .partner-grid {
@@ -262,6 +261,7 @@ hr {
   font-family: "Open Sans", sans-serif;
   padding: 0px 45px;
   font-size: 14px;
+  font-weight: 100;
 }
 
 /* STRATEGY SECTION */
@@ -274,7 +274,6 @@ hr {
   background-size: cover;
   background-attachment: fixed;
   padding: 0 15px;
-  font-family: "PT Sans", sans-serif;
 }
 
 #strategy-section .strategy-intro h1::before {
@@ -294,6 +293,7 @@ hr {
 }
 
 #strategy-section .strategy-intro h1 {
+  font-family: "PT Sans", sans-serif;
   color: #fff;
   font-size: 35px;
   font-weight: 700;
@@ -301,9 +301,10 @@ hr {
 }
 
 #strategy-section .strategy-intro h2 {
+  font-family: "Open Sans", sans-serif;
   font-weight: 100;
-  font-size: 25px;
-  color: #fff;
+  font-size: 32px;
+  color: #ffffffe0;
 }
 
 #strategy-section .strategy-grid {
@@ -418,8 +419,9 @@ hr {
 }
 
 #strategy-section .details-card p {
+  font-family: "Open Sans", sans-serif;
   color: #fff;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 100;
   line-height: 15px;
   margin-top: 4px;
@@ -457,7 +459,6 @@ hr {
   color: #344f73;
   font-size: 35px;
   font-family: "PT Sans", sans-serif;
-  text-transform: capitalize;
   font-weight: 700;
 }
 
@@ -568,15 +569,21 @@ hr {
 }
 
 #services-section .services-intro p {
-  color: rgb(52, 79, 115);
-  font-size: 30px;
+  font-size: 25px;
   line-height: 50px;
+  font-family: "Open Sans";
+  font-weight: 100;
 }
 
 #services-section .services-intro .color-text {
-  font-size: 65px;
+  font-size: 60px;
   color: #ef6330;
   font-weight: 700;
+}
+
+#services-section .services-wrapper {
+  position: relative;
+  overflow: hidden;
 }
 
 #services-section #horizontal-line {
@@ -651,7 +658,7 @@ hr {
 #team-section {
   min-height: 100vh;
   background-image: url("./images/arrow-1.png");
-  background-position: left -355px top -450px;
+  background-position: left -440px top -450px;
   background-repeat: no-repeat;
   /* margin: 80px 0; */
   overflow: hidden;
@@ -692,6 +699,7 @@ hr {
 }
 
 #team-section .team-wrapper .para-text h3 {
+  font-family: "PT Sans", sans-serif;
   color: #ef6330;
   font-weight: 600;
   font-size: 24px;
@@ -699,8 +707,9 @@ hr {
 }
 
 #team-section .team-wrapper .para-text p {
+  font-family: "Open Sans", sans-serif;
   font-size: 20px;
-  line-height: 22px;
+  line-height: 25px;
 }
 
 #team-section .team-wrapper .first-bg-img {
@@ -760,7 +769,7 @@ hr {
 
 #retail-section .retail-txt h4 {
   font-size: 35px;
-  color: rgb(52, 79, 115);
+  color: #344f73;
   font-family: "PT Sans", sans-serif;
   font-weight: 700;
   margin-bottom: 40px;
@@ -807,21 +816,21 @@ hr {
 
 #contact-us-section .contact-intro h3 {
   font-size: 35px;
-  color: rgb(52, 79, 115);
+  color: #344f73;
   font-family: "PT Sans", sans-serif;
   font-weight: 700;
   margin-bottom: 40px;
 }
 
 #contact-us-section .form-section {
-  margin: 50px 0;
-  height: 300px;
+  margin: 50px 0 0 0;
+  height: 240px;
   display: -ms-grid;
   display: grid;
   -ms-grid-rows: 0.4fr 0px 0.4fr 0px 0.4fr;
   grid-template-rows: 0.4fr 0.4fr 0.4fr;
-  -ms-grid-columns: 0.27fr 40px 0.27fr;
-  grid-template-columns: 0.27fr 0.27fr;
+  -ms-grid-columns: 0.4fr 40px 4fr;
+  grid-template-columns: 0.4fr 0.4fr;
   place-content: center;
   grid-gap: 0px 40px;
   grid-template-areas:
@@ -931,10 +940,22 @@ hr {
   width: 50%;
 }
 
-#footer-section .location-mark {
+#footer-section .footer-icon {
+  margin-right: 20px;
+}
+
+#footer-section .address-icon {
+  margin-bottom: 30px;
+}
+
+#footer-section .address,
+.number {
   display: inline-block;
-  font-size: 30px;
-  margin-bottom: 20px;
+}
+
+#footer-section .social-media .media-icons img {
+  width: 80%;
+  margin-top: 30px;
 }
 
 #footer-section .social-media .media-icons {
@@ -960,6 +981,14 @@ hr {
 @media (max-width: 1024px) {
   .container {
     padding: 0 35px;
+  }
+
+  #landing-background .landing-text {
+    margin-left: 50px;
+  }
+
+  #landing-background .landing-text h1 {
+    font-size: 45px;
   }
 
   #nav-section .navbar-brand {
@@ -1092,8 +1121,8 @@ hr {
   }
 
   #partner-section .img-wrapper {
-    width: 35%;
-    height: 120px;
+    width: 50%;
+    height: 100px;
   }
 
   #partner-section .img-wrapper img {
@@ -1206,6 +1235,8 @@ hr {
       "email email"
       "designation designation"
       "company company";
+    grid-gap: 20px 0;
+    margin: 50px 0;
   }
 
   #globe-map-section {
@@ -1219,12 +1250,16 @@ hr {
     padding: 28px 50px;
   }
 
-  #footer-section .map-icon {
+  #footer-section .address-icon {
     padding-right: 15px;
   }
 
-  .social-media {
+  #footer-section .social-media {
     margin: auto;
+  }
+
+  #footer-section .social-media .media-icons {
+    justify-content: center;
   }
 
   #contact-us-section .name {
@@ -1272,14 +1307,23 @@ hr {
   #footer-section {
     background-image: none;
   }
+
+  #footer-section .footer-address {
+    padding: 28px 14px;
+  }
 }
 
 /*FOR 425PX  */
 
 @media (max-width: 425px) {
+  #landing-background .landing-text {
+    margin-left: 15px;
+  }
+
   #landing-background .landing-text h1 {
     font-size: 50px;
     padding: 0 20px;
+    line-height: 65px;
   }
 
   #partner-section .img-wrapper {
@@ -1317,15 +1361,26 @@ hr {
     width: 50%;
   }
 
+  #footer-section .address-icon img {
+    vertical-align: super;
+  }
+
+  #footer-section .footer-address .address-break {
+    display: block;
+  }
+
   #footer-section .footer-address p {
     font-size: 12px;
-    width: 80%;
   }
 }
 
 /*FOR 375PX  */
 
 @media (max-width: 375px) {
+  #landing-background .landing-text {
+    margin-left: 10px;
+  }
+
   #partner-section .img-wrapper {
     height: 100px;
     width: 90%;
@@ -1340,8 +1395,16 @@ hr {
 /*FOR 325PX  */
 
 @media (max-width: 320px) {
+  #landing-background .landing-text {
+    margin-left: 5px;
+  }
+
+  #landing-background .landing-text h1 {
+    font-size: 40px;
+  }
+
   #partner-section .img-wrapper {
-    width: 80%;
+    width: 90%;
     height: 120px;
   }
 

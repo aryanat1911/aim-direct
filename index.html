@@ -74,7 +74,7 @@
         <div id="landing-background">
             <div class="black-filter">
                 <div class="landing-text">
-                    <h1>Simplify Market Entry & Access to India with AIM Direct</h1>
+                    <h1>Simplify Market Entry<br>& Access to India with AIM Direct</h1>
                 </div>
             </div>
         </div>
@@ -512,24 +512,27 @@
                     <img alt="footer text" src="./images/footer-logo.png">
                 </div>
                 <div class="col-md-6 footer-address">
-                    <div class="map-icon">
-                        <i class="fas fa-map-marker-alt location-mark"></i>
+                    <div class="address-icon">
+                        <img class="footer-icon" src="./images/address.png"></img>
+                        <p class="address">2369 Robinson Lane Jackson,<span class="address-break"> OH 45640</span></p>
                     </div>
-                    <p>2nd Floor, 212, A Wing, Dynasty Business Park, Andheri Kurla Road, Andheri East, Mumbai City,
-                        Maharashtra, 400059</p>
+                    <div class="phone-icon">
+                        <img class="footer-icon" src="./images/phone.png"></img>
+                        <p class="number">(+1) 740-395-3829</p>
+                    </div>
                     <div class="social-media">
                         <ul class="media-icons">
                             <li>
-                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><img src="./images/media_icons_1.png"></i></a>
                             </li>
                             <li>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><img src="./images/media_icons_2.png"></a>
                             </li>
                             <li>
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><img src="./images/media_icons_3.png"></a>
                             </li>
                             <li>
-                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><img src="./images/media_icons_4.png"></a>
                             </li>
                         </ul>
                     </div>
@@ -548,7 +551,7 @@
 
         // NAVBAR CHANGE CODE
         $(window).scroll(function () {
-            if ($(this).scrollTop() >= 500) {
+            if ($(this).scrollTop() >= 635) {
                 $('#navbar-items .nav-link').removeClass("nav-white");
                 $('#navbar-items .nav-link').addClass("nav-black");
                 $('nav').addClass("bg-light");
